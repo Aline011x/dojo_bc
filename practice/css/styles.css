@@ -1,0 +1,14 @@
+.container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.seccion1{
+    border: 1px solid #2a2525;
+    padding: 10px;
+}
+
+.seccion2{
+    border: 1px solid #264670;
+    padding: 10px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Practica Examen</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="head_tittle">
+                <h1 class="htittle">DojoWeather</h2>
+            </div>
+
+            <ul class="head_list">
+                <li class="nav_list"><a onclick="alerta()" href="#" class="nav_link"></a>Burbank</li>
+                <li class="nav_list"><a onclick="alerta()" href="#" class="nav_link"></a>Chicago</li>
+                <li class="nav_list"><a onclick="alerta()" href="#" class="nav_link"></a>Dallas</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main_container">
+
+        <div class="main_head">
+            <div class="main_tittle">
+                <h3 class="tittle">San Jose</h3>
+            </div> 
+
+            <div class="input_main">
+                <label for="options">show temperature in </label>
+                <select id="options" class="option-temp">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="under"></div>        
+
+        <main class="elements">
+            <div class="element1">
+                <h3 class="element_tittle">Today</h3>
+                <img src="./img/some_rain.png" alt="today" class="element_image">
+                <p class="element_parrafo">some rain</p>
+                <div class="temps">
+                    <p class="max_temp">24°</p>
+                    <p class="min_temp">18°</p>
+                </div>
+            </div>
+            <div class="element1">
+                <h3 class="element_tittle">Tomorrow</h3>
+                <img src="./img/some_sun.png" alt="today" class="element_image">
+                <p class="element_parrafo">some sun</p>
+                <div class="temps">
+                    <p class="max_temp">27°</p>
+                    <p class="min_temp">19°</p>
+                </div>
+            </div>
+            <div class="element1">
+                <h3 class="element_tittle">Friday</h3>
+                <img src="./img/some_clouds.png" alt="today" class="element_image">
+                <p class="element_parrafo">some clouds</p>
+                <div class="temps">
+                    <p class="max_temp">21°</p>
+                    <p class="min_temp">16°</p>
+                </div>
+            </div>
+            <div class="element1">
+                <h3 class="element_tittle">Saturday</h3>
+                <img src="./img/some_sun.png" alt="today" class="element_image">
+                <p class="element_parrafo">some sun</p>
+                <div class="temps">
+                    <p class="max_temp">26°</p>
+                    <p class="min_temp">21°</p>
+                </div>
+            </div>
+        </main>
+    </main>
+
+    <footer class="fcontainer">
+        <div class="footer">
+            <img src="./img/cookie.png" alt="footer img" class="footer_img">
+
+            <div class="footer_text">
+                <h3 class="footer_tittle">Stop! Cookie time</h3>
+                <p class="footer_parrafo">We use cookies 
+                    (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to
+                    analyse our traffc.</p>
+                <a href="#" class="footer_link">Read More</a>
+            </div>
+
+            <a href="#" onclick="eliminar_cookies()" class="footer_button">I Accept</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

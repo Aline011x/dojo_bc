@@ -1,0 +1,71 @@
+/* primer index.html */
+h1 {
+    font-family: 'Segoe UI Semibold';
+}
+label {
+    font-size: 16;
+    font-family: 'Segoe UI Semibold';
+}
+p {
+    font-family: 'Segoe UI Semibold';
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+}
+.subtitles{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link{
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.link img {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
+.social-snk{
+    margin: 5px;
+}
+.social-snk img{
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+}
+table {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius:  10px;
+}
+tr, td, th {
+    border: 1px solid #000;
+    padding: 2px;
+}
+th {
+    background-color: #7ccd65;
+}
+.form-container label, .form-container input, .form-container textarea {
+    margin: 5px;
+}
+
+#send{
+    justify-content: flex-end;
+}
+
+.form-container{
+justify-content: left;
+}
+textarea {
+    width: 370px;
+    height: 40px; 
+}
+body {
+    background-color: #EBF3E8;
+}

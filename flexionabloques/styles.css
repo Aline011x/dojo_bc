@@ -1,0 +1,72 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 1%;
+    right: 1%;
+
+}
+.container{
+    border: 1px solid black;
+    width: 70%;
+    height: 94%;
+    background-color: silver;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    right: 1%;
+}
+.top-nav {
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    height: 23%;
+    background-color: green;
+}
+.side-nav {
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    height: 45%;
+    width: 15%;
+    background-color: blue;
+}
+.main {
+    border: 1px solid black;
+   position: absolute;
+   right: 1%;
+   height: 70%;
+   width: 81%;
+   bottom: 3%;
+   background-color: red;
+   display: flex;
+}
+.sub-content {
+    border: 1px solid black;
+    position: relative;
+    left: 2%;
+    top: 4%;
+    padding: 2%;
+    margin-right: 2%;
+    height: 45%;
+    width: 26%;
+    display: inline;
+    background-color: yellow;
+    
+}
+#advertisement {
+    border: 1px solid black;
+   position: absolute;
+   bottom: 13%;
+   left: 2%;
+   height: 27%;
+   width: 94%;
+    background-color: purple;
+
+}

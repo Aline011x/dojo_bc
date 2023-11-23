@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+body {
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cube{
+display: flex;
+flex-direction: column;
+border: 1px solid #6c6c6c;
+height: 400px;
+width: 50%;
+}
+
+.cube .up {
+background-color: #17a2b8;
+height: 30%;
+}
+
+.down {
+background-color: white;
+height: 45%;
+padding: 1%;
+margin: 3%;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: auto;
+    transform: translate(0%, -50%);
+}
+.image{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}

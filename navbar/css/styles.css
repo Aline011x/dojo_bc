@@ -1,0 +1,44 @@
+/* Crear una barra de navegación horizontal con tres enlaces: 
+Inicio, Acerca de, Contacto. Los enlaces deben estar centrados tanto
+ vertical como horizontalmente en la barra de navegación.
+Vamos a añadir un logo en la izquierda y algunos enlaces a la derecha. 
+También vamos a hacer que la barra de navegación se pegue a la 
+parte superior de la página. */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    border: 0;
+    background-color:  rgb(25, 39, 45);
+    width: 100%;
+}
+
+.hola {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    margin: 1%;
+}
+
+a{
+    color:lightblue;
+    font-weight: bolder;
+    margin: 1em;
+}
+a:hover{
+    background-color: rgb(68, 70, 84);
+}
+
+.logo img{
+    margin: 1%;
+    height: 60px;
+    width: 60px;
+}
